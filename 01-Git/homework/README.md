@@ -123,9 +123,7 @@ Deberías ver algo parecido a estas líneas:
 
     modified:   README.md
 
-  Untracked files:
-    (use "git add <file>..." to include in what will be committed)
-
+  Untracked files:git add
     archivo-ejemplo.js
 
   no changes added to commit (use "git add" and/or "git commit -a")
