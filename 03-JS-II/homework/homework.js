@@ -19,13 +19,13 @@ function saludo(idioma) {
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
   if(idioma === "aleman"){
-    return "Guten Tag";
+    return "Guten Tag!";
   } else if( idioma === "mandarin"){
-    return "ni Hao";
+    return "Ni Hao!";
   } else if(idioma === "ingles"){
     return "Hello!"
   }else {
-    return "Hola";
+    return "Hola!";
   }
 }
 
@@ -72,7 +72,7 @@ function fizzBuzz(numero) {
     return "fizz";
   } else if(numero % 5 === 0){
     return "buzz";
-  } else if(numero % 3 === 0 && numero % 5 ===0){
+  } else if(numero % 15 === 0) {
     return "fizzbuzz";
   } else {
     return numero;
